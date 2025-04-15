@@ -1,1 +1,18 @@
-[![Linter](https://github.com/ekaterinakrylovao/tg-bot-project/actions/workflows/linter.yaml/badge.svg)](https://github.com/ekaterinakrylovao/tg-bot-project/actions/workflows/linter.yaml)
+# Telegram бот для напоминаний: RemandarineBot
+
+## Описание проекта
+
+Этот проект представляет собой Telegram-бота, который напоминает о событиях с заданной Вами периодичностью и высылает прикрепленные к ним файлы. 
+
+### Некоторые возможности:
+- Редактирование событий.
+- Кнопки для вывода списка текущих и завершённых дел.
+  - Завершённое дело можно вернуть в список текущих дел.
+- Хранение файлов.
+
+## Запуск бота
+
+Для запуска бота вместе с логированием используйте:
+```bash
+docker compose up -d
+```
