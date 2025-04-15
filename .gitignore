@@ -1,0 +1,21 @@
+# .gitignore
+
+# Исключить виртуальную среду
+venv/
+env/
+
+# Исключить временные файлы и кэш
+*.pyc
+__pycache__/
+.idea
+
+# Исключить конфиденциальные файлы
+.env
+.env.docker
+
+# Исключить системные файлы (например, для macOS и Windows)
+.DS_Store
+Thumbs.db
+
+database.db
+tmp/

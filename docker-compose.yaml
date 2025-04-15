@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  bot:
+    build: .
+    container_name: tg_bot
+    env_file:
+      - .env # Указываем файл .env для загрузки переменных окружения
+    environment:
+      - TZ=Europe/Moscow
+    volumes:
+      - .:/app
+      - ./database:/app/database
+    command: python bot.py
